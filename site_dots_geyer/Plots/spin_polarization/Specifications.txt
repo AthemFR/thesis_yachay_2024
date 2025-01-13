@@ -1,0 +1,20 @@
+ #Energy axis
+
+energy_axis = np.arange(-6, 6 + 0.01, 0.01) #meV
+print("Energy axis is", energy_axis,"meV")
+
+#Gamma i.e. width parameter
+gamma = 1 #meV
+print("The width is:",gamma,"meV")
+
+#Site energies:
+
+e_01 = 0 #meV
+e_02 = 0 #meV
+e_11 = 1 #meV
+e_12 = 1 #meV
+
+# Helix geometric parameters:
+
+lam_2 = 0.5 #meV
+B = - 2
